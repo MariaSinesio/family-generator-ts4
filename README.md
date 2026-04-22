@@ -3,13 +3,17 @@
 ## O que é?
 
 Um script feito em python com o intuito de gerar aleatoriamente combinações de perfis para sims (personagem do jogo), desde atributos como nome e sobrenome, obtidos de uma vasta, mas limitada lista em JSON, até a personalidade central, estilo de vida do Sim. 
-Foi um projeto muito divertido de fazer, onde consegui materializar visualmente como seria cada sim, seguindo o perfil indicado (Homem/Mulher).
+Foi um projeto muito divertido de fazer, onde consegui materializar visualmente como seria cada sim, seguindo o perfil indicado ***(Homem/Mulher)***.
 
-## Ferramentas
+## Tech Stack
 
-*PYTHON*
-*Json*
-*Flask*
+*PYTHON* <br>
+*Json* <br>
+*Flask (Em produção...)* <br>
+
+## Screenshots
+
+[Logo](/images/screenshot.png)
 
 ## Instalação
 
@@ -25,5 +29,7 @@ git clone https://github.com/MariaSinesio/family-generator-ts4.git
 ## Próximos passos...
 
 - Integrar o script na web com html simples 
+- Adicionar mais chaves, atribbutos ao gerador 
+
 
 

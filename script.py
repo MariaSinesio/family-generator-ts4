@@ -2,7 +2,7 @@ import random
 import json
 
 
-with open("character.json", "r") as c:
+with open("character.json", "r", encoding="utf-8") as c:
     character = json.load(c)
 
 print("------- The Sims Generator -------")
