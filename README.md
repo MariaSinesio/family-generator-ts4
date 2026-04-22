@@ -13,7 +13,7 @@ Foi um projeto muito divertido de fazer, onde consegui materializar visualmente 
 
 ## Screenshots
 
-[Logo](/images/screenshot.png)
+![Logo](images/screenshot.png)
 
 ## Instalação
 
