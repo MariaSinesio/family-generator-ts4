@@ -1,0 +1,13 @@
+[theme]
+
+base = "dark"
+backgroundColor = "#252422"
+font = "monospace"
+borderColor = "#ccc5b9"
+textColor = "#a1c181"
+primaryColor = "#fffcf2"
+secondaryBackgroundColor = "#fffcf2"
+
+
+
+
