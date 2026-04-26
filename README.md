@@ -9,7 +9,7 @@ Foi um projeto muito divertido de fazer, onde consegui materializar visualmente 
 
 *PYTHON* <br>
 *Json* <br>
-*Flask (Em produção...)* <br>
+*Streamlit* <br>
 
 ## Screenshots
 
@@ -21,15 +21,28 @@ Foi um projeto muito divertido de fazer, onde consegui materializar visualmente 
 git clone https://github.com/MariaSinesio/family-generator-ts4.git
 ```
 
+```bash
+python script.py
+```
+OU
+
+```bash
+streamlit run interface.py
+```
+
+## Próximos passos...
+
+- Fazer deploy do projeto
+- Adicionar mais chaves, atribbutos ao gerador
+- Corrigir problemas internos
 
 ## LICENSE
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Próximos passos...
+## Contribuição
 
-- Integrar o script na web com html simples 
-- Adicionar mais chaves, atribbutos ao gerador 
+Aberto para contribuição em breve..
 
 
 
