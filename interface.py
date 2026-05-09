@@ -1,16 +1,15 @@
 import streamlit as st
 from script import generate_sim
 
-col1, col2 = st.columns([2,1])
 
-with col1:
+st.markdown("<h1 style='color: #1C83E1; font-size: 3em;'>The Sims Generator</h1>", unsafe_allow_html=True) # Texto estilizado e unsafe 
 
-  st.header("The Sims Generator")
+col1, col2, col3 = st.columns([1, 3, 1])
 
 with col2:
-  st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHA0eWh5Ym5lMzBmNjFiaTJwanM2cTg2cDZycDI1cmFqaDJzbTA5byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2JJFTQqEB7phtZAc/giphy.gif", width=200)
+ st.video("video/video.mp4", width=300, autoplay=True, loop=True)
 
-st.subheader("Sorteie seu :gray[sim] único!")
+st.subheader("Sorteie seu :blue[sim] único!")
 
 gender = st.text_input("Escolha o gênero do seu primeiro sim: (Masculine/Female)")
 
@@ -18,9 +17,7 @@ if st.button("Gerar sim"):
     result = generate_sim(gender)
 
     st.code(result)
-    
-else:
-   st.write("Digite __female__ ou __masculine__ para gerar o sim desejado")
+
 
 
 
