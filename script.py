@@ -33,3 +33,22 @@ def generate_sim(gender):
 
 user = input("Qual será o gênero do seu sim?(female/masculine):\n").strip().lower()
 print(generate_sim(user))
+
+with open("family.json", "r", encoding="utf-8") as f:
+    family = json.load(f)
+
+    print("------- The Sims Family Generator -------")
+
+def generate_family():
+
+    family_number = random.choice(family["family_number"])
+    family_type = random.choice(family["family_type"])
+
+    message = (f"♡~(≧ω≦)~ ━━━★ Características da família ★━━━ ~(≧ω≦)~♡\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+               f"Numero de familiares: {family_number}\n"
+               f"Tipo de família: {family_type}\n"
+                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    return message
+
+print(generate_family())
