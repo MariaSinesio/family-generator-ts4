@@ -41,8 +41,8 @@ with open("family.json", "r", encoding="utf-8") as f:
 
 def generate_family():
 
-    family_number = random.choice(family["family_number"])
-    family_type = random.choice(family["family_type"])
+    family_number = random.choice(family["family number"])
+    family_type = random.choice(family["family type"])
 
     message = (f"♡~(≧ω≦)~ ━━━★ Características da família ★━━━ ~(≧ω≦)~♡\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
@@ -50,5 +50,6 @@ def generate_family():
                f"Tipo de família: {family_type}\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     return message
+
 
 print(generate_family())

@@ -1,15 +1,17 @@
-# Generator TS4 
+# PersonaGen
+
+<h2 align="center">Feito de fã para fã</h2>
 
 ## O que é?
 
-Um script feito em python com o intuito de gerar aleatoriamente combinações de perfis para sims (personagem do jogo), desde atributos como nome e sobrenome, obtidos de uma vasta, mas limitada lista em JSON, até a personalidade central, estilo de vida do Sim. 
-Foi um projeto muito divertido de fazer, onde consegui materializar visualmente como seria cada sim, seguindo o perfil indicado ***(Homem/Mulher)***.
+Um script feito em python com o intuito de gerar aleatoriamente combinações de perfis para **Parafolks/Sims** (personagem do jogo), desde atributos como nome e sobrenome, obtidos de uma vasta, mas limitada lista em JSON, até a personalidade central, estilo de vida, gostos. 
+Foi um projeto muito divertido, nostálgico de fazer, onde consegui materializar visualmente como seria cada parafolk/sim, seguindo o perfil indicado do meu gosto ***(Homem/Mulher)***.
 
 ## Tech Stack
 
-*PYTHON* <br>
-*Json* <br>
-*Streamlit* <br>
+- Python
+- Streamlit
+- Json
 
 ## Screenshots
 
@@ -30,11 +32,9 @@ OU
 streamlit run interface.py
 ```
 
-## Próximos passos...
+### Deploy
 
-- Fazer deploy do projeto
-- Adicionar mais chaves, atribbutos ao gerador
-- Corrigir problemas internos
+Esse projeto utiliza [Streamlit](https://streamlit.io/) para deploy, para mais informações, entre no site e siga o passo a passo.
 
 ## LICENSE
 
@@ -42,7 +42,9 @@ streamlit run interface.py
 
 ## Contribuição
 
-Aberto para contribuição em breve..
+Aberto para contribuição!
+
+Por favor, veja ``contributing.md``
 
 
 
