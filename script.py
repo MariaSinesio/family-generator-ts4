@@ -5,7 +5,7 @@ import json
 with open("character.json", "r", encoding="utf-8") as c:
     character = json.load(c)
 
-print("------- The Sims Generator -------")
+print("------- The Persona Generator -------")
 
 print("Escolha o gênero do seu primeiro sim")
 
@@ -22,7 +22,7 @@ def generate_sim(gender):
     age_bk = random.choice(character["attributes"]["age bucket"]) 
 
 # Como se fosse um template, um embed do Discord
-    message = (f"♡~(≧ω≦)~ ━━━★ Seu sim prontinho ★━━━ ~(≧ω≦)~♡\n"
+    message = (f"♡~(≧ω≦)~ ━━━★ Sua persona prontinha ★━━━ ~(≧ω≦)~♡\n"
                 f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
                f"Nome do seu sim é {first_name} {last_name}\n"
                f"Sexualidade: {sexualities}\n"
@@ -31,7 +31,7 @@ def generate_sim(gender):
                f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     return message
 
-user = input("Qual será o gênero do seu sim?(female/masculine):\n").strip().lower()
+user = input("Qual será o gênero do seu sim?(female/masculine):\n").lower()
 print(generate_sim(user))
 
 with open("family.json", "r", encoding="utf-8") as f:
